@@ -1,0 +1,15 @@
+/*
+ *
+ *     COLOR REFERENCE
+ * #fffdec -- off white || BACKGROUND, TEXT
+ * #72716a -- dark grey || BUTTONS
+ * #75d142 -- main green 
+ * #00a8aa -- main blue
+ * #d84c79 -- main pink
+ *
+ *      FONTS REFERENCE
+ * MAIN: arial bold
+ * green/srs: century schoolbook regular
+ * blue/normal: futura medium
+ * pink/fun: garamond italic
+ */
