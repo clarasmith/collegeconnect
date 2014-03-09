@@ -82,11 +82,10 @@ hr {
 	display: inline;
 	height: 100px; 
 	width: 300px;
-	background: #72716a; /* dark grey */
+	background-color: #72716a; /* dark grey */
 	border: none;
 	padding: 70px;
 	margin: 30px;
-	color: #fffdec; /* off white */
 	text-align: center;
 	font: bold 50pt 'Arial', sans-serif;
 }
@@ -95,6 +94,10 @@ hr {
 }.button:active {
 	position:relative;
 	top:1px;
+}
+
+#signup #signin{
+	color: #fffdec; /* off white */
 }
 
 .circle {
@@ -210,4 +213,9 @@ nav ul li {
 	list-style: none;
 	margin: 7px;
 	font-size: 9pt;
+}
+
+#contains_circles{
+	margin-left:auto;
+	margin-right:auto;
 }
