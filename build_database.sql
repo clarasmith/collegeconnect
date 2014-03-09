@@ -1,4 +1,4 @@
--- Francys Scott, Cali Stenson, Megan Chen, Clara, Jennie.
+-- Francys Scott, Cali Stenson, Megan Chen, Clara, Jessie.
 -- Rosie Hackathon - March 8 2014
 -- SQL for basic database for events.
 
@@ -13,6 +13,7 @@ drop table if exists event;
 drop table if exists user;
 drop table if exists connection;
 drop table if exists ride;
+drop table if exists study;
 drop table if exists studybuddy;
 
 create table event (
@@ -32,6 +33,14 @@ create table user(
   password varchar(20),
   email varchar(30),
   photo_id varchar(30)
+);
+
+create table study (
+   eid int auto_increment not null, 
+   tme varchar(50),
+   department varchar(50),
+   course varchar(50),
+   primary key(eid)
 );
 
 create table connection(
