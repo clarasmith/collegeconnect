@@ -225,3 +225,31 @@ nav ul li {
 	margin-right:auto;
 	margin-left:auto;
 }
+
+img {
+	height:200px;
+	margin:3px;
+}
+
+img:hover {
+	opacity:0.7;
+}
+
+.team{
+	float:left;
+}
+
+#about_text{
+	width:80%;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:justify;
+}
+
+.blurb{
+	text-decoration:none;
+	font-style:italic;
+	font-weight:100;
+	font-size:12px;
+
+}
