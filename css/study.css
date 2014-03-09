@@ -67,7 +67,7 @@ hr {
 
 /* wrap */
 #wrap {
-	/*width: 998px;*/
+	width: 1200px;
 	background: #fffdec; /* off white */
 	margin: auto;
 	text-align: center;
@@ -79,6 +79,12 @@ hr {
 	font: bold 70pt 'Arial', sans-serif;
 	padding: 1px
 }
+
+form {
+	text-align: left;
+	font: 14pt 'helvetica', sans-serif;
+}
+
 .button {
 	display: inline;
 	height: 100px; 
@@ -109,7 +115,6 @@ hr {
  text-align:center;
  background:#75d142;
 }
-
 
 
 
