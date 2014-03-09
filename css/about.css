@@ -111,9 +111,9 @@ hr {
 
 /* nav */
 nav {
-	width: 915px;
+	/*width: 915px;*/
 	height: 40px;
-	background: #1B1B1B; /* almost black */
+	background: #72716a; /* dark grey */
 	text-align: center;
 	text-transform: uppercase;
 	padding: 25px 60px 0px 25px;
