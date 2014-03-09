@@ -89,12 +89,20 @@ hr {
 	text-align: center;
 	font: bold 50pt 'Arial', sans-serif;
 }
-.button:hover {
+.button:hover, .fakelink:hover {
+	color: #fffdec; /* off white */
 	background-color:#72716a; /* dark grey */
 }.button:active {
 	position:relative;
 	top:1px;
+	color: #fffdec; /* off white */
+}.button:link, .button:visited, .button:active, .fakelink {
+	color: #fffdec; /* off white */
+
 }
+
+
+
 
 #signup #signin{
 	color: #fffdec; /* off white */
