@@ -26,7 +26,16 @@
 			<div id="wrap">
 				
 				<h2><p>STUDY</p></h2>
-				
+				<nav>
+					<ul>
+						<li class="top"><a href="./home.html">&nbsp;HOME&nbsp;</a></li>
+						<li class="top"><a href="./about.html">&nbsp;ABOUT&nbsp;</a></li>
+						<li class="top"><a href="./study.html">&nbsp;STUDY&nbsp;</a></li>
+						<li class="top"><a href="./transport.html">&nbsp;TRANSPORT&nbsp;</a></li>
+						<li class="top"><a href="./social.html">&nbsp;SOCIAL&nbsp;</a></li>
+						<li class="top"><a href="./contact.html">&nbsp;CONTACT&nbsp;</a></li>
+					</ul>
+				</nav>
 				
 				<form>
 					Name: <input type="text" name="name"><br>
@@ -37,7 +46,7 @@
 					<input type="checkbox" name="day" value="tomorrow">tomorrow<br>
 					<input type="checkbox" name="day" value="week">this week<br>
 					<input type="checkbox" name="day" value="semester">this semester<br>
-					
+					<br><br>
 					What department is your class in?
 					<select name="cars">
 					
@@ -102,19 +111,20 @@
 					<option value="WGST"  >Women's & Gender Studies</option>
 					<option value="WRIT"  >Writing</option>
 					</select><br>
-					
+					<br>
 					What course are you in? <input type="text" name="course"><br>
 					(E.g. if you are looking for a buddy in WRIT 172, select "Writing" from the drop down menu and enter "172" into the textbox.)
-					
+					<br>
+					<div style="display:inline;width:100px;height:75px;font-size:30px;color:#fffdec;line-height:100px;text-align:center;background:#72716a">submit</div>
 					<hr><hr><hr>
-					
+					<br><br>
 					<p>Here are the people looking for a study buddy in Computer Science 251 within a similar timeframe as you.</p>
 					
 					<table border="1" style="width:900px">
 						<tr>
-							<td>name</td>
-							<td>email</td>
-							<td>looking for a study partner:</td>
+							<td><strong>name</strong></td>
+							<td><strong>email</strong></td>
+							<td><strong>looking for a study partner:</strong></td>
 						</tr>
 						<tr>
 							<td>Cali Stenson</td>
